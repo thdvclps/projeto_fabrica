@@ -21,14 +21,115 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 25px;
+    padding: 40px;
 }
 
 .logo {
-    height: 60px
-}
+    position: absolute;
+    height: 80px;
+    left: 165px;
+ }
 
 .menu {
     display: flex;
+    padding-left: 900px;
     gap: 65px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    
+}
+
+.main {
+position: absolute;
+width: 1440px;
+height: 1024px;
+left: 0px;
+top: 0px;
+}
+
+.titulo {                           /*GUIA COMPLETO DO DEV FRONT-END*/
+    position: absolute;
+    width: 496px;
+    height: 145px;
+    left: 140px;
+    top: 266px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+
+}
+
+
+.paragrafo {                /*E-book gratuito*/
+    position: absolute;
+    width: 374px;
+    height: 92px;
+    left: 201px;
+    top: 410px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+}
+
+.paragrafo2 {             /*As melhores dicas para você se tornar um desenvolvedor front-end de sucesso!*/
+    position: absolute;
+    width: 374px;
+    height: 92px;
+    left: 201px;
+    top: 475px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+}
+
+.botao {                      /*BAIXE AGORA!*/
+    position: absolute;
+    width: 419px;
+    height: 109px;
+    left: 178px;
+    top: 573px;
+    background: #FFB800;
+    border-radius: 30px;
+    font-family: 'Roboto';
+    color: #fff;
+    font-size: 40px;
+    border: none;
+    cursor: pointer;
+}
+.botao:hover {                 /*transição do botão quando o cursor passar em cima*/
+    background-color: #FF900E;
+    transition: .4s;
+    color: black;
+}
+
+.imagem {
+    justify-content: end;
+    padding-left: 1250px;
+    padding-top: 60px;
+}
+
+.rodape {
+    padding-top: 80px;
+}
+
+.paragrafo-rodape {          /*PRODUZIDO PELA FÁBRICA DE SOFTWARE - UNIPÊ*/
+    position: absolute;
+    left: 740px;
+    text-align: center;
+    color: black;
+    
 }
